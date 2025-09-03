@@ -1,13 +1,13 @@
 body {
- background-color: blue;
+ background-color: rgb(187, 183, 183);
 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-color: 333;
+color: rgb(0, 0, 0);
 text-align: center;
 padding: 20px;
 
 }
 h1{
-   color: 4CAF50; 
+   color: rgb(233, 77, 57); 
    font-size: 2.5em;
 }
 img{
@@ -15,7 +15,7 @@ img{
    width: 150px;
    height: 150px;
    object-fit: cover;
-   border: 5px solid 4CAF50;
+   border: 5px solid ;
 }
 p, ul{
    font-size: 1.1em;
@@ -23,7 +23,37 @@ p, ul{
    margin: 20px auto;
 }
 a{
-    color: 007BFF;
+    color: rgb(15, 3, 180);
     text-decoration: none;
     font-weight: bold;
+}
+h2{
+   color: 4caf50; /* a mesma cor do titulo principal, para manter a cosistencia */
+   font-size: 2em;
+   margin-top: 40px; /* adiciona umbom espaço acima da seção */
+   border-bottom: 2px solid ccc; /* adiciona uma linha sutilpara separar o conteudo */
+   padding-bottom: 10px;
+   
+}
+ul{
+   list-style: none; /* remove os marcadores de bolinha padrao da lista */
+   padding-right: 0;
+   max-width: 800px;
+   margin: 20px auto;
+}
+li{
+   background-color: rgb(209, 41, 41); /* fundo branco para cada item de projeto */
+   border-radius: 8px; /* cantos levemente arrendodados */
+   padding: 20px;
+   margin-bottom: 20px; /* espaço entre um projeto e outro */
+   box-shadow: 0 4px 8px rgb(209, 79, 79); /* sombra suave para dar profundidade */
+   text-align: left; /* alinha o texto a esquerda para facilitar a leitura */
+}
+h4 a{color: rgb(255, 255, 255); /*define a cor azul para os links */
+   text-decoration: none; /* remove o sublinhado */
+   font-size: 1.5em;
+   transition: color 0.3s ease; /*adiciona uma transicao suave para o efeito de hoveer */
+}
+h4 a:hover { 
+   color: rgb(63, 165, 42); /* cor fica mais escura quando passa por cima */
 }
